@@ -1,0 +1,33 @@
+{
+  "name": "api-orcamentos-novatec",
+  "version": "1.0.0",
+  "description": "API para orçamentos NovaTec integrada com Supabase",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build completed'",
+    "start": "node index.js",
+    "test": "node test-local.js"
+  },
+  "keywords": [
+    "api",
+    "supabase",
+    "vercel",
+    "cronogramas",
+    "node.js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "dotenv": "^17.1.0",
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
