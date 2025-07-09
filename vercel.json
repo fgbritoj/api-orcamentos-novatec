@@ -1,4 +1,16 @@
-{
+{"version": 2,
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/orcamentos",
+      "dest": "/api/orcamentos.js"
+    }
+  ],
   "functions": {
     "api/**/*.js": {
       "runtime": "@vercel/node"
